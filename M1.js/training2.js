@@ -1,3 +1,5 @@
+"use strict";
+
 // const fullName = "Jacob Mercer";
 // console.log(fullName.slice(0, 4)); // 'Jaco'
 // console.log(fullName.slice(3, 9)); // 'ob Mer'
@@ -69,7 +71,7 @@
     // console.log(checkForSpam("[SPAM] How to earn fast money?")); // true
 
 
-  //   function checkForSpam(message){
+  //   DZ Task4 function checkForSpam(message){
   //     if (message.toLowerCase.includes("spam") ||  message.toUpperCase.includes("sale")) {
   //      return `true`;   
   //     } else {
@@ -77,6 +79,60 @@
   //     }
   //  }
 
+//   function calculateTotal(number) {
+//     let n = 0;
+//     let sum = 0;
+//   while (n <= number) {
+//     return sum(n += 1) ;
+//       sum = n += 1;
+  
+//     }
+//   }
+//   calculateTotal();
+//   calculateTotal(3);
+
+//   let count = 0;
+
+// while (count < 10) {
+//   console.log(`Count: ${count}`);
+//   count += 1;
+// }
+  
+  
+// function calculateTotal(number) {
+//   let n = 0;
+//   let sum = 0;
+// while (n <= number) {
+//   console.log(n);
+//   sum += n;
+//     n += 1;
+//   }
+//   return sum;
+// }
+// calculateTotal();
+// console.log(calculateTotal(3));
+// console.log(calculateTotal(0));
+// console.log(calculateTotal(18));
+// console.log(calculateTotal(24));
+
+
+// for (let i = 20; i >= 0; i -= 5) {
+//   console.log(i);
+// }
+
+function calculateTotal(number) {
+  let sum = 0;
+  for (let i = 0; i <= number; i += 1) {
+    console.log(i);
+    sum += i;
+  }
+  return sum;
+}
+calculateTotal();
+console.log(calculateTotal(3));
+console.log(calculateTotal(0));
+console.log(calculateTotal(18));
+console.log(calculateTotal(24));
 
 
 
