@@ -152,16 +152,28 @@ console.log(normalizeInput("Big SALE", "upper"));
 
 // Доповни код таким чином, щоб у змінну number записувалося перше число у проміжку 
 // від start до end, яке ділиться на 5 без остачі.
-const start = 17;
-const end = 25;
-let number;
-for (let i = start; i <= end; i+=1) {
+// const start = 17;
+// const end = 25;
+// let number;
+// for (let i = start; i <= end; i+=1) {
 
-  if (i % 5 === 0) {
-    number = i;
-    console.log(number);
+//   if (i % 5 === 0) {
+//     number = i;
+//     console.log(number);
 
-    break;
-  }
+//     break;
+//   }
   
-}
+// }
+
+// function findNumber(start, end, divisor) {
+//   let number;
+//   for (let i = start; i <= end; i++) {
+//     if (i % divisor === 0) {
+//       number = i;
+//       bfeak;
+//     }
+//     return number;
+//   }
+// }
+// findNumber();
