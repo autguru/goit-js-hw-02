@@ -142,7 +142,6 @@ console.log(normalizeInput("Big SALE", "upper"));
 // console.log(calculateEvenTotal(27));
 // console.log(calculateEvenTotal());
 
-
 // calculateEvenTotal(3);
 // calculateEvenTotal(7);
 // calculateEvenTotal(18);
@@ -150,7 +149,7 @@ console.log(normalizeInput("Big SALE", "upper"));
 // calculateEvenTotal();
 // повертає 0, 2, 12, 90, 182
 
-// Доповни код таким чином, щоб у змінну number записувалося перше число у проміжку 
+// Доповни код таким чином, щоб у змінну number записувалося перше число у проміжку
 // від start до end, яке ділиться на 5 без остачі.
 // const start = 17;
 // const end = 25;
@@ -163,7 +162,7 @@ console.log(normalizeInput("Big SALE", "upper"));
 
 //     break;
 //   }
-  
+
 // }
 
 // function findNumber(start, end, divisor) {
@@ -177,3 +176,32 @@ console.log(normalizeInput("Big SALE", "upper"));
 //   }
 // }
 // findNumber();
+
+// eternal cycle
+// let age = 18;
+// for (;;) {
+//   age += 10;
+//   console.log(age);
+//   if (age > 100) {
+//     break
+//   }
+// }
+// let res = 0;
+// for (let i = 0; i < 10; i++) {
+//   if (i % 2 === 0) {
+//     continue;
+//   }
+//   res += i;
+// }
+// console.log(res); We have 25 
+
+let res = 0;
+for (let i = 0; i< 10; i++) {
+  if (i % 2 === 0) {
+    continue;
+  } else if (i>8) {
+    break;
+  }
+  res +=i;
+}
+ console.log(res); //  Will be 16.
